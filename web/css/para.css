@@ -1,0 +1,39 @@
+.bar1 {
+  fill: #00CD66	;
+}
+
+.bar2 {
+  fill: brown;
+}
+
+.bar1:hover {
+	fill: #00CD66;
+	opacity: 0.5;
+}
+
+.bar2:hover {
+	fill: brown;
+	opacity: 0.5;
+}
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.paragraph{
+  text-align: center;
+  position:fixed;
+  width: 400px;
+  height:100px;
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 2px #AAAAAA;
+  top: 75px;
+  padding: 10px;
+  left: 600px;
+}
+

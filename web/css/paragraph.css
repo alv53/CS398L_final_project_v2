@@ -1,0 +1,16 @@
+html,body{
+	height:100%;
+}
+.container{
+	margin-top: 100px;
+	width: 75%;
+	/*height: 90%;*/
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 2px #AAAAAA;
+	padding: 10px;
+}
+.split-para span{
+	float: right;
+}
