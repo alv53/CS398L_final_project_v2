@@ -28,7 +28,7 @@ function main(name){
   svg.call(tip);
 
   d3.tsv(name, type, function(error, data) {
-    x.domain([-10,10])
+    x.domain([-16,16])
     y.domain(data.map(function(d) { return d.para; }));
 
   svg.selectAll(".bar")
